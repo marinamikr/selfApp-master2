@@ -31,8 +31,8 @@ class PlofileViewController: UIViewController {
         //インスタンスを作成
         DBRef = Database.database().reference()
     }
-
-
+    
+    
     @IBAction func chooseIcon(_ sender: Any) {
         // カメラロールが利用可能か？
         if UIImagePickerController.isSourceTypeAvailable(.photoLibrary) {
@@ -76,18 +76,19 @@ class PlofileViewController: UIViewController {
         }
     }
     
+    
     @IBAction func startButton(_ sender: AnyObject) {
-//        if userNameText.text != "" {
-////             && iconImageView.image !
+//                if userNameText.text != "" {
+//                     && iconImageView.image !
         iconImageView.image = UIImage(named: "profileIicon.png")
-            DBRef.child("userData/\(Util.getUUID())/name").setValue(userNameText.text)
-//            DBRef.child("userData").child(Util.getUUID()).child("name").setValue("datadata")
-            
-         uploadIcon(name: userNameText.text!, pic: iconImageView.image!)
-            makeAleart(title: "変更が完了しました", message: "", okText: "OK")
-//        } else {
-////            makeAleart(title: "全て入力してください", message: "全て入力してください", okText: "OK")
-//        }
+        DBRef.child("userData/\(Util.getUUID())/name").setValue(userNameText.text)
+        //            DBRef.child("userData").child(Util.getUUID()).child("name").setValue("datadata")
+        
+        uploadIcon(name: userNameText.text!, pic: iconImageView.image!)
+        makeAleart(title: "変更が完了しました", message: "", okText: "OK")
+        //        } else {
+        ////            makeAleart(title: "全て入力してください", message: "全て入力してください", okText: "OK")
+        //        }
         
     }
     
@@ -122,32 +123,17 @@ extension PlofileViewController :UITextFieldDelegate {
 }
 
 extension PlofileViewController : UIImagePickerControllerDelegate ,UINavigationControllerDelegate {
-    
+
     // 写真を選んだ後に呼ばれる処理
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         selectedImage = info[.originalImage] as? UIImage
         // ビューに表示する
         self.iconImageView.image = selectedImage
-        
+
         // 写真を選ぶビューを引っ込める
         self.dismiss(animated: true)
     }
 }
 
-//
-//extension TopViewController: CropViewControllerDelegate {
-//
-//    func cropViewController(_ cropViewController: CropViewController, didCropToImage image: UIImage, withRect cropRect: CGRect, angle: Int) {
-//        //加工した画像が取得できる
-//        iconImageView.image = image
-//        cropViewController.dismiss(animated: true, completion: nil)
-//
-//
-//    }
-//
-//    func cropViewController(_ cropViewController: CropViewController, didFinishCancelled cancelled: Bool) {
-//        // キャンセル時
-//        cropViewController.dismiss(animated: true, completion: nil)
-//    }
-//}
+
 
