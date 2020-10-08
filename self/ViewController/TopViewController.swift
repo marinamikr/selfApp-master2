@@ -41,55 +41,59 @@ class TopViewController: UIViewController {
         }
     }
     
-    func uploadIcon(name: String,pic: UIImage){
-        // strageの一番トップのReferenceを指定
-        let storage = Storage.storage()
-        let storageRef = storage.reference()
-        
-        //変数dataにpicをNSDataにしたものを指定
-        if let data = Util.resizeImage(src: pic, max: 200).jpegData(compressionQuality: 0.8) {
-            // トップReferenceの一つ下の固有IDの枝を指定
-            let riversRef = storageRef.child(Util.getUUID()).child(String.getRandomStringWithLength(length: 60))
-            
-            // strageに画像をアップロード
-            riversRef.putData(data, metadata: nil, completion: { metaData, error in
-                guard let metadata = metaData else {
-                    return
-                }
-                riversRef.downloadURL { (url, error) in
-                    guard let downloadURL = url else {
-                        return
-                    }
-                    let data = ["name": name,"iconURL": downloadURL] as [String : Any]
-                    let ref = Database.database().reference()
-                    ref.child(Util.getUUID()).child("userData").setValue(data)
-                }
-                
-            })
-            userDefaults.set(true, forKey: "isFirst")
-            dismiss(animated: true, completion: nil)
-        }
-    }
-    
-    
-    
+    //    func uploadIcon(name: String,pic: UIImage){
+    //        // strageの一番トップのReferenceを指定
+    //        let storage = Storage.storage()
+    //        let storageRef = storage.reference()
     //
-    //        func upload(name: String) {
-    //            let ref = Database.database().reference()
-    //            let data = ["name": name]
-    //            ref.child("userData").child(Util.getUUID()).setValue(data)
+    //        //変数dataにpicをNSDataにしたものを指定
+    //        if let data = Util.resizeImage(src: pic, max: 200).jpegData(compressionQuality: 0.8) {
+    //            // トップReferenceの一つ下の固有IDの枝を指定
+    //            let riversRef = storageRef.child(Util.getUUID()).child(String.getRandomStringWithLength(length: 60))
+    //
+    //            // strageに画像をアップロード
+    //            riversRef.putData(data, metadata: nil, completion: { metaData, error in
+    //                guard let metadata = metaData else {
+    //                    return
+    //                }
+    //                riversRef.downloadURL { (url, error) in
+    //                    guard let downloadURL = url else {
+    //                        return
+    //                    }
+    //                    let data = ["name": name,"iconURL": downloadURL] as [String : Any]
+    //                    let ref = Database.database().reference()
+    //                    ref.child(Util.getUUID()).child("userData").setValue(data)
+    //                }
+    //
+    //            })
     //            userDefaults.set(true, forKey: "isFirst")
     //            dismiss(animated: true, completion: nil)
-    //
     //        }
+    //    }
+    
+    
+    
+    
+    func upload(name: String) {
+        let ref = Database.database().reference()
+        let data = ["name": name]
+        ref.child("userData").child(Util.getUUID()).setValue(data)
+        userDefaults.set(true, forKey: "isFirst")
+        dismiss(animated: true, completion: nil)
+        
+    }
     
     @IBAction func nextButton() {
-        if nameTextField.text != "" && iconImageView.image != nil {
-            uploadIcon(name: nameTextField.text!, pic: iconImageView.image!)
-        } else {
+        if nameTextField.text != "" {
+            upload(name: nameTextField.text!)
+            performSegue(withIdentifier: "toTutorial", sender: nil)
+        }else{
             makeAleart(title: "名前を入力してください", message: "全て入力してください", okText: "OK")
         }
+        //        if nameTextField.text != "" && iconImageView.image != nil {
+        //            uploadIcon(name: nameTextField.text!, pic: iconImageView.image!)
     }
+    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         nameTextField.resignFirstResponder()
         return true
@@ -110,15 +114,15 @@ extension TopViewController :UITextFieldDelegate {
     }
 }
 
-extension TopViewController : UIImagePickerControllerDelegate ,UINavigationControllerDelegate {
-    
-    // 写真を選んだ後に呼ばれる処理
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        selectedImage = info[.originalImage] as? UIImage
-        // ビューに表示する
-        self.iconImageView.image = selectedImage
-        
-        // 写真を選ぶビューを引っ込める
-        self.dismiss(animated: true)
-    }
-}
+//extension TopViewController : UIImagePickerControllerDelegate ,UINavigationControllerDelegate {
+//
+//    // 写真を選んだ後に呼ばれる処理
+//    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+//        selectedImage = info[.originalImage] as? UIImage
+//        // ビューに表示する
+//        self.iconImageView.image = selectedImage
+//
+//        // 写真を選ぶビューを引っ込める
+//        self.dismiss(animated: true)
+//    }
+

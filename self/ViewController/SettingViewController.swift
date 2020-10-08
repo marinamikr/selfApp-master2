@@ -11,7 +11,7 @@ import UIKit
 class SettingViewController: UIViewController {
     
     @IBOutlet weak var settingTableVIew: UITableView!
-    var nameArray = ["プロフィール","その他"]
+    var nameArray = ["プロフィール","チュートリアル","その他"]
     
     
     override func viewDidLoad() {
@@ -29,6 +29,8 @@ extension SettingViewController: UITableViewDelegate {
         case 0:
            performSegue(withIdentifier: "toPlofileViewController", sender: nil)
         case 1:
+            performSegue(withIdentifier: "toPageViewController", sender: nil)
+        case 2:
             performSegue(withIdentifier: "toOtherViewController", sender: nil)
         default:
             return

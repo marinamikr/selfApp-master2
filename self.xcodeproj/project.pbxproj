@@ -18,11 +18,6 @@
 		4052C623252F62EC002DEAA8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C622252F62EC002DEAA8 /* SecondViewController.swift */; };
 		4052C625252F62F8002DEAA8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C624252F62F8002DEAA8 /* ThirdViewController.swift */; };
 		4052C629252F638A002DEAA8 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C628252F638A002DEAA8 /* PageViewController.swift */; };
-		4052C631252F6556002DEAA8 /* アートボード 5-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C62C252F6556002DEAA8 /* アートボード 5-100.jpg */; };
-		4052C632252F6556002DEAA8 /* アートボード 2-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C62D252F6556002DEAA8 /* アートボード 2-100.jpg */; };
-		4052C633252F6556002DEAA8 /* アートボード 3-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C62E252F6556002DEAA8 /* アートボード 3-100.jpg */; };
-		4052C634252F6556002DEAA8 /* アートボード 4-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C62F252F6556002DEAA8 /* アートボード 4-100.jpg */; };
-		4052C635252F6556002DEAA8 /* アートボード 1-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C630252F6556002DEAA8 /* アートボード 1-100.jpg */; };
 		40544EC823E048D3005DE7B9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40544EC723E048D3005DE7B9 /* Character.swift */; };
 		405B382323A8DA1800333CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B382223A8DA1800333CB8 /* AppDelegate.swift */; };
 		405B382523A8DA1800333CB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B382423A8DA1800333CB8 /* SceneDelegate.swift */; };
@@ -40,6 +35,17 @@
 		40887C5C23C49E9C00BF05F7 /* RouletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40887C5B23C49E9C00BF05F7 /* RouletteViewController.swift */; };
 		408B511F25109F5700FCCC06 /* Icon feather-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 408B511E25109F5700FCCC06 /* Icon feather-settings.png */; };
 		408C454324865DE900A0CF09 /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408C454224865DE900A0CF09 /* CharacterSet.swift */; };
+		4093D7F8252F7856001BCDDB /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4093D7F1252F7855001BCDDB /* 4.jpg */; };
+		4093D7F9252F7856001BCDDB /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4093D7F2252F7855001BCDDB /* 6.jpg */; };
+		4093D7FA252F7856001BCDDB /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4093D7F3252F7855001BCDDB /* 5.jpg */; };
+		4093D7FB252F7856001BCDDB /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4093D7F4252F7856001BCDDB /* 1.jpg */; };
+		4093D7FC252F7856001BCDDB /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4093D7F5252F7856001BCDDB /* 3.jpg */; };
+		4093D7FD252F7856001BCDDB /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4093D7F6252F7856001BCDDB /* 2.jpg */; };
+		4093D7FE252F7856001BCDDB /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4093D7F7252F7856001BCDDB /* 7.jpg */; };
+		4093D800252F7916001BCDDB /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D7FF252F7916001BCDDB /* ForthViewController.swift */; };
+		4093D802252F7921001BCDDB /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D801252F7921001BCDDB /* FifthViewController.swift */; };
+		4093D804252F792D001BCDDB /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D803252F792D001BCDDB /* SixthViewController.swift */; };
+		4093D806252F7938001BCDDB /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D805252F7938001BCDDB /* SeventhViewController.swift */; };
 		40B6070124FB72B500BEB87B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B606FF24FB72B500BEB87B /* CustomTableViewCell.swift */; };
 		40B6070224FB72B500BEB87B /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B6070024FB72B500BEB87B /* CustomTableViewCell.xib */; };
 		40B6070424FB8D9600BEB87B /* PlofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6070324FB8D9600BEB87B /* PlofileViewController.swift */; };
@@ -90,11 +96,6 @@
 		4052C622252F62EC002DEAA8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		4052C624252F62F8002DEAA8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		4052C628252F638A002DEAA8 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
-		4052C62C252F6556002DEAA8 /* アートボード 5-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 5-100.jpg"; sourceTree = "<group>"; };
-		4052C62D252F6556002DEAA8 /* アートボード 2-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 2-100.jpg"; sourceTree = "<group>"; };
-		4052C62E252F6556002DEAA8 /* アートボード 3-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 3-100.jpg"; sourceTree = "<group>"; };
-		4052C62F252F6556002DEAA8 /* アートボード 4-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 4-100.jpg"; sourceTree = "<group>"; };
-		4052C630252F6556002DEAA8 /* アートボード 1-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 1-100.jpg"; sourceTree = "<group>"; };
 		40544EC723E048D3005DE7B9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		405B381F23A8DA1800333CB8 /* self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = self.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405B382223A8DA1800333CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +119,17 @@
 		40887C5B23C49E9C00BF05F7 /* RouletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouletteViewController.swift; sourceTree = "<group>"; };
 		408B511E25109F5700FCCC06 /* Icon feather-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon feather-settings.png"; sourceTree = "<group>"; };
 		408C454224865DE900A0CF09 /* CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSet.swift; sourceTree = "<group>"; };
+		4093D7F1252F7855001BCDDB /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		4093D7F2252F7855001BCDDB /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		4093D7F3252F7855001BCDDB /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		4093D7F4252F7856001BCDDB /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		4093D7F5252F7856001BCDDB /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4093D7F6252F7856001BCDDB /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4093D7F7252F7856001BCDDB /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		4093D7FF252F7916001BCDDB /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		4093D801252F7921001BCDDB /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		4093D803252F792D001BCDDB /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		4093D805252F7938001BCDDB /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
 		40B606FF24FB72B500BEB87B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		40B6070024FB72B500BEB87B /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		40B6070324FB8D9600BEB87B /* PlofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlofileViewController.swift; sourceTree = "<group>"; };
@@ -210,6 +222,10 @@
 				4052C622252F62EC002DEAA8 /* SecondViewController.swift */,
 				4052C624252F62F8002DEAA8 /* ThirdViewController.swift */,
 				4052C628252F638A002DEAA8 /* PageViewController.swift */,
+				4093D7FF252F7916001BCDDB /* ForthViewController.swift */,
+				4093D801252F7921001BCDDB /* FifthViewController.swift */,
+				4093D803252F792D001BCDDB /* SixthViewController.swift */,
+				4093D805252F7938001BCDDB /* SeventhViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -228,11 +244,13 @@
 		4052C62B252F64AB002DEAA8 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				4052C630252F6556002DEAA8 /* アートボード 1-100.jpg */,
-				4052C62D252F6556002DEAA8 /* アートボード 2-100.jpg */,
-				4052C62E252F6556002DEAA8 /* アートボード 3-100.jpg */,
-				4052C62F252F6556002DEAA8 /* アートボード 4-100.jpg */,
-				4052C62C252F6556002DEAA8 /* アートボード 5-100.jpg */,
+				4093D7F4252F7856001BCDDB /* 1.jpg */,
+				4093D7F6252F7856001BCDDB /* 2.jpg */,
+				4093D7F5252F7856001BCDDB /* 3.jpg */,
+				4093D7F1252F7855001BCDDB /* 4.jpg */,
+				4093D7F3252F7855001BCDDB /* 5.jpg */,
+				4093D7F2252F7855001BCDDB /* 6.jpg */,
+				4093D7F7252F7856001BCDDB /* 7.jpg */,
 			);
 			path = Tutorial;
 			sourceTree = "<group>";
@@ -447,22 +465,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4093D7F8252F7856001BCDDB /* 4.jpg in Resources */,
 				405B382F23A8DA1A00333CB8 /* LaunchScreen.storyboard in Resources */,
+				4093D7F9252F7856001BCDDB /* 6.jpg in Resources */,
 				408B511F25109F5700FCCC06 /* Icon feather-settings.png in Resources */,
 				405B382C23A8DA1A00333CB8 /* Assets.xcassets in Resources */,
-				4052C631252F6556002DEAA8 /* アートボード 5-100.jpg in Resources */,
-				4052C632252F6556002DEAA8 /* アートボード 2-100.jpg in Resources */,
+				4093D7FD252F7856001BCDDB /* 2.jpg in Resources */,
 				40F8860824052CE200969895 /* TreeView.xib in Resources */,
 				40EB063E240E6C09009521E4 /* Story.xib in Resources */,
-				4052C635252F6556002DEAA8 /* アートボード 1-100.jpg in Resources */,
+				4093D7FC252F7856001BCDDB /* 3.jpg in Resources */,
 				4002C9E623E0357E0093666B /* GoogleService-Info.plist in Resources */,
 				40B6070224FB72B500BEB87B /* CustomTableViewCell.xib in Resources */,
-				4052C634252F6556002DEAA8 /* アートボード 4-100.jpg in Resources */,
+				4093D7FB252F7856001BCDDB /* 1.jpg in Resources */,
 				40BD97C623CDD70F005F45FB /* yazurushi.png in Resources */,
 				40F8860624052C9A00969895 /* BusinessCard.xib in Resources */,
+				4093D7FA252F7856001BCDDB /* 5.jpg in Resources */,
+				4093D7FE252F7856001BCDDB /* 7.jpg in Resources */,
 				405B382A23A8DA1800333CB8 /* Main.storyboard in Resources */,
 				40223E4725079C53008B611B /* profileIicon.png in Resources */,
-				4052C633252F6556002DEAA8 /* アートボード 3-100.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,10 +613,12 @@
 				40BD044823E97236009F8644 /* CameraViewController.swift in Sources */,
 				40887C5A23C498C900BF05F7 /* SelectCharacterViewController.swift in Sources */,
 				4020983D23E0394A0030A2E8 /* Util.swift in Sources */,
+				4093D804252F792D001BCDDB /* SixthViewController.swift in Sources */,
 				405B382723A8DA1800333CB8 /* ViewController.swift in Sources */,
 				4028DA1E23F9A44200F33004 /* TopViewController.swift in Sources */,
 				406BA24124A2017300B919A2 /* MakeAccountViewController.swift in Sources */,
 				4052C623252F62EC002DEAA8 /* SecondViewController.swift in Sources */,
+				4093D806252F7938001BCDDB /* SeventhViewController.swift in Sources */,
 				40BD044A23E980F2009F8644 /* IntroductionViewController.swift in Sources */,
 				40B6070124FB72B500BEB87B /* CustomTableViewCell.swift in Sources */,
 				40B6070424FB8D9600BEB87B /* PlofileViewController.swift in Sources */,
@@ -610,9 +632,11 @@
 				405B382323A8DA1800333CB8 /* AppDelegate.swift in Sources */,
 				40544EC823E048D3005DE7B9 /* Character.swift in Sources */,
 				40F886042405292E00969895 /* CustomUITabBarController.swift in Sources */,
+				4093D802252F7921001BCDDB /* FifthViewController.swift in Sources */,
 				4052C625252F62F8002DEAA8 /* ThirdViewController.swift in Sources */,
 				405B382523A8DA1800333CB8 /* SceneDelegate.swift in Sources */,
 				408C454324865DE900A0CF09 /* CharacterSet.swift in Sources */,
+				4093D800252F7916001BCDDB /* ForthViewController.swift in Sources */,
 				4052C621252F62DF002DEAA8 /* FirstViewController.swift in Sources */,
 				4028DA1823F2BEE100F33004 /* TreeView.swift in Sources */,
 				40887C5C23C49E9C00BF05F7 /* RouletteViewController.swift in Sources */,

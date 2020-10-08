@@ -20,9 +20,8 @@ class ViewController: UIViewController {
     var realm :Realm!
     var realmModelArray:Results<RealmModel>!
     var name: String!
-    
+    static var isTutorial = false
 
-    
     @IBOutlet var businessCard: BusinessCard!
     @IBOutlet var treeCard: TreeView!
     @IBOutlet var story: Story!
@@ -76,6 +75,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         userDefaults.register(defaults: ["isFirst":false])
+        
         isFirst = userDefaults.bool(forKey: "isFirst")
         if !isFirst {
             performSegue(withIdentifier: "toTopViewController",sender: nil)
