@@ -14,6 +14,15 @@
 		4028DA1823F2BEE100F33004 /* TreeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4028DA1623F2BEE100F33004 /* TreeView.swift */; };
 		4028DA1B23F2BFE800F33004 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4028DA1A23F2BFE800F33004 /* SettingViewController.swift */; };
 		4028DA1E23F9A44200F33004 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4028DA1D23F9A44200F33004 /* TopViewController.swift */; };
+		4052C621252F62DF002DEAA8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C620252F62DF002DEAA8 /* FirstViewController.swift */; };
+		4052C623252F62EC002DEAA8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C622252F62EC002DEAA8 /* SecondViewController.swift */; };
+		4052C625252F62F8002DEAA8 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C624252F62F8002DEAA8 /* ThirdViewController.swift */; };
+		4052C629252F638A002DEAA8 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4052C628252F638A002DEAA8 /* PageViewController.swift */; };
+		4052C631252F6556002DEAA8 /* アートボード 5-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C62C252F6556002DEAA8 /* アートボード 5-100.jpg */; };
+		4052C632252F6556002DEAA8 /* アートボード 2-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C62D252F6556002DEAA8 /* アートボード 2-100.jpg */; };
+		4052C633252F6556002DEAA8 /* アートボード 3-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C62E252F6556002DEAA8 /* アートボード 3-100.jpg */; };
+		4052C634252F6556002DEAA8 /* アートボード 4-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C62F252F6556002DEAA8 /* アートボード 4-100.jpg */; };
+		4052C635252F6556002DEAA8 /* アートボード 1-100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4052C630252F6556002DEAA8 /* アートボード 1-100.jpg */; };
 		40544EC823E048D3005DE7B9 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40544EC723E048D3005DE7B9 /* Character.swift */; };
 		405B382323A8DA1800333CB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B382223A8DA1800333CB8 /* AppDelegate.swift */; };
 		405B382523A8DA1800333CB8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 405B382423A8DA1800333CB8 /* SceneDelegate.swift */; };
@@ -77,6 +86,15 @@
 		4028DA1623F2BEE100F33004 /* TreeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeView.swift; sourceTree = "<group>"; };
 		4028DA1A23F2BFE800F33004 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		4028DA1D23F9A44200F33004 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		4052C620252F62DF002DEAA8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		4052C622252F62EC002DEAA8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		4052C624252F62F8002DEAA8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		4052C628252F638A002DEAA8 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		4052C62C252F6556002DEAA8 /* アートボード 5-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 5-100.jpg"; sourceTree = "<group>"; };
+		4052C62D252F6556002DEAA8 /* アートボード 2-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 2-100.jpg"; sourceTree = "<group>"; };
+		4052C62E252F6556002DEAA8 /* アートボード 3-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 3-100.jpg"; sourceTree = "<group>"; };
+		4052C62F252F6556002DEAA8 /* アートボード 4-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 4-100.jpg"; sourceTree = "<group>"; };
+		4052C630252F6556002DEAA8 /* アートボード 1-100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "アートボード 1-100.jpg"; sourceTree = "<group>"; };
 		40544EC723E048D3005DE7B9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		405B381F23A8DA1800333CB8 /* self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = self.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		405B382223A8DA1800333CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -188,8 +206,35 @@
 				40880373248FA878007504D4 /* LookCharacterViewController.swift */,
 				406BA24024A2017300B919A2 /* MakeAccountViewController.swift */,
 				40B6070324FB8D9600BEB87B /* PlofileViewController.swift */,
+				4052C620252F62DF002DEAA8 /* FirstViewController.swift */,
+				4052C622252F62EC002DEAA8 /* SecondViewController.swift */,
+				4052C624252F62F8002DEAA8 /* ThirdViewController.swift */,
+				4052C628252F638A002DEAA8 /* PageViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4052C62A252F64A0002DEAA8 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4052C62B252F64AB002DEAA8 /* Tutorial */,
+				40BD97C523CDD70F005F45FB /* yazurushi.png */,
+				408B511E25109F5700FCCC06 /* Icon feather-settings.png */,
+				40223E4625079C53008B611B /* profileIicon.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		4052C62B252F64AB002DEAA8 /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				4052C630252F6556002DEAA8 /* アートボード 1-100.jpg */,
+				4052C62D252F6556002DEAA8 /* アートボード 2-100.jpg */,
+				4052C62E252F6556002DEAA8 /* アートボード 3-100.jpg */,
+				4052C62F252F6556002DEAA8 /* アートボード 4-100.jpg */,
+				4052C62C252F6556002DEAA8 /* アートボード 5-100.jpg */,
+			);
+			path = Tutorial;
 			sourceTree = "<group>";
 		};
 		40544EC623E048AE005DE7B9 /* Model */ = {
@@ -237,9 +282,7 @@
 				405B382D23A8DA1A00333CB8 /* LaunchScreen.storyboard */,
 				405B383023A8DA1A00333CB8 /* Info.plist */,
 				405B385223A8E59100333CB8 /* RealmModel.swift */,
-				40BD97C523CDD70F005F45FB /* yazurushi.png */,
-				408B511E25109F5700FCCC06 /* Icon feather-settings.png */,
-				40223E4625079C53008B611B /* profileIicon.png */,
+				4052C62A252F64A0002DEAA8 /* Image */,
 				4002C9E523E0357E0093666B /* GoogleService-Info.plist */,
 			);
 			path = self;
@@ -407,14 +450,19 @@
 				405B382F23A8DA1A00333CB8 /* LaunchScreen.storyboard in Resources */,
 				408B511F25109F5700FCCC06 /* Icon feather-settings.png in Resources */,
 				405B382C23A8DA1A00333CB8 /* Assets.xcassets in Resources */,
+				4052C631252F6556002DEAA8 /* アートボード 5-100.jpg in Resources */,
+				4052C632252F6556002DEAA8 /* アートボード 2-100.jpg in Resources */,
 				40F8860824052CE200969895 /* TreeView.xib in Resources */,
 				40EB063E240E6C09009521E4 /* Story.xib in Resources */,
+				4052C635252F6556002DEAA8 /* アートボード 1-100.jpg in Resources */,
 				4002C9E623E0357E0093666B /* GoogleService-Info.plist in Resources */,
 				40B6070224FB72B500BEB87B /* CustomTableViewCell.xib in Resources */,
+				4052C634252F6556002DEAA8 /* アートボード 4-100.jpg in Resources */,
 				40BD97C623CDD70F005F45FB /* yazurushi.png in Resources */,
 				40F8860624052C9A00969895 /* BusinessCard.xib in Resources */,
 				405B382A23A8DA1800333CB8 /* Main.storyboard in Resources */,
 				40223E4725079C53008B611B /* profileIicon.png in Resources */,
+				4052C633252F6556002DEAA8 /* アートボード 3-100.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +596,7 @@
 				405B382723A8DA1800333CB8 /* ViewController.swift in Sources */,
 				4028DA1E23F9A44200F33004 /* TopViewController.swift in Sources */,
 				406BA24124A2017300B919A2 /* MakeAccountViewController.swift in Sources */,
+				4052C623252F62EC002DEAA8 /* SecondViewController.swift in Sources */,
 				40BD044A23E980F2009F8644 /* IntroductionViewController.swift in Sources */,
 				40B6070124FB72B500BEB87B /* CustomTableViewCell.swift in Sources */,
 				40B6070424FB8D9600BEB87B /* PlofileViewController.swift in Sources */,
@@ -556,12 +605,15 @@
 				405B385323A8E59100333CB8 /* RealmModel.swift in Sources */,
 				40BD045423E987A7009F8644 /* BusinessCard.swift in Sources */,
 				40BD97C823CDDEAB005F45FB /* StoryViewController.swift in Sources */,
+				4052C629252F638A002DEAA8 /* PageViewController.swift in Sources */,
 				406BA24724A209FF00B919A2 /* extention.swift in Sources */,
 				405B382323A8DA1800333CB8 /* AppDelegate.swift in Sources */,
 				40544EC823E048D3005DE7B9 /* Character.swift in Sources */,
 				40F886042405292E00969895 /* CustomUITabBarController.swift in Sources */,
+				4052C625252F62F8002DEAA8 /* ThirdViewController.swift in Sources */,
 				405B382523A8DA1800333CB8 /* SceneDelegate.swift in Sources */,
 				408C454324865DE900A0CF09 /* CharacterSet.swift in Sources */,
+				4052C621252F62DF002DEAA8 /* FirstViewController.swift in Sources */,
 				4028DA1823F2BEE100F33004 /* TreeView.swift in Sources */,
 				40887C5C23C49E9C00BF05F7 /* RouletteViewController.swift in Sources */,
 				40EB0640240E6C11009521E4 /* Story.swift in Sources */,
