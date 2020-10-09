@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BusinessCard" customModule="self" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BusinessCard" customModule="TELL_ME" customModuleProvider="target">
             <connections>
                 <outlet property="label1" destination="sSJ-eW-yqV" id="tR3-ok-xXY"/>
                 <outlet property="label2" destination="TK1-Zu-ZxP" id="NsK-B9-3Tz"/>
@@ -122,7 +122,7 @@
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
-                                    <textInputTraits key="textInputTraits"/>
+                                    <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 </textField>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Syf-AO-psU" userLabel="View2">
                                     <rect key="frame" x="240" y="0.0" width="80" height="31.666666666666668"/>
@@ -203,7 +203,7 @@
                         <constraint firstItem="NX5-Nx-GRt" firstAttribute="height" secondItem="Gtt-rG-p4r" secondAttribute="height" multiplier="0.07" id="zgy-N9-3iW"/>
                     </constraints>
                 </stackView>
-                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fb7-cx-MlC" customClass="TreeView" customModule="self" customModuleProvider="target">
+                <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fb7-cx-MlC" customClass="TreeView" customModule="TELL_ME" customModuleProvider="target">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="395"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 </view>

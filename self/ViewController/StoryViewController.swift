@@ -45,6 +45,16 @@ class StoryViewController: UIViewController {
         
     }
     
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // キーボードを閉じる
+        textField1.resignFirstResponder()
+        textField2.resignFirstResponder()
+        textField3.resignFirstResponder()
+        textView1.resignFirstResponder()
+        textView2.resignFirstResponder()
+        return true
+    }
+    
     @IBAction func saveButton() {
         
         let saveData1 = RealmModel()
@@ -110,5 +120,11 @@ class StoryViewController: UIViewController {
          }
          */
         
+    }
+}
+
+extension StoryViewController :UITextFieldDelegate {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
     }
 }

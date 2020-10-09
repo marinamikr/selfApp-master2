@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6nb-ld-I55">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="F5a-NG-Vhc">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -50,7 +50,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vtf-rx-Feu">
                                                 <rect key="frame" x="112.66666666666667" y="0.0" width="187.33333333333331" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="45c-2E-8AB" userLabel="View2">
                                                 <rect key="frame" x="300" y="0.0" width="75" height="38"/>
@@ -94,7 +94,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="80v-GI-tCk">
                                                 <rect key="frame" x="112.66666666666667" y="0.0" width="187.33333333333331" height="38"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="62B-fR-2w0" userLabel="View4">
                                                 <rect key="frame" x="300" y="0.0" width="75" height="38"/>
@@ -138,7 +138,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ZQ-RK-Acr">
                                                 <rect key="frame" x="112.66666666666667" y="0.0" width="187.33333333333331" height="37.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hWO-7C-6FS" userLabel="View6">
                                                 <rect key="frame" x="300" y="0.0" width="75" height="37.666666666666664"/>
@@ -182,7 +182,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Db8-Qn-c2e">
                                                 <rect key="frame" x="112.66666666666667" y="0.0" width="187.33333333333331" height="37.666666666666664"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aCP-dY-D73" userLabel="View8">
                                                 <rect key="frame" x="300" y="0.0" width="75" height="37.666666666666664"/>
@@ -694,7 +694,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vvU-g3-ZxS">
                                                 <rect key="frame" x="150" y="0.0" width="131.33333333333337" height="36"/>
                                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IdK-ZQ-9ZY" userLabel="View11">
                                                 <rect key="frame" x="281.33333333333331" y="0.0" width="93.666666666666686" height="36"/>
@@ -738,7 +738,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5ic-fc-BIt">
                                                 <rect key="frame" x="150" y="0.0" width="131.33333333333337" height="36"/>
                                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6hT-ks-rJN" userLabel="View13">
                                                 <rect key="frame" x="281.33333333333331" y="0.0" width="93.666666666666686" height="36"/>
@@ -782,7 +782,7 @@
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SNB-ZE-az0">
                                                 <rect key="frame" x="150" y="0.0" width="131.33333333333337" height="36.333333333333336"/>
                                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z8J-v4-dgV" userLabel="View15">
                                                 <rect key="frame" x="281.33333333333331" y="0.0" width="93.666666666666686" height="36.333333333333336"/>
@@ -828,7 +828,7 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="next"/>
                                             </textView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KRm-AM-7io" userLabel="View17">
                                                 <rect key="frame" x="281.33333333333331" y="0.0" width="93.666666666666686" height="50.666666666666664"/>
@@ -874,7 +874,7 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                                             </textView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BZG-1E-jBc" userLabel="View19">
                                                 <rect key="frame" x="281.33333333333331" y="0.0" width="93.666666666666686" height="21.666666666666668"/>
@@ -1176,6 +1176,7 @@
                         <outlet property="settingTableVIew" destination="eIP-d3-eXI" id="HUJ-4M-XoJ"/>
                         <segue destination="aDX-FZ-tVN" kind="show" identifier="toPlofileViewController" id="UXe-Ug-w99"/>
                         <segue destination="dra-cN-TZn" kind="show" identifier="toOtherViewController" id="zYy-YI-QAz"/>
+                        <segue destination="PUJ-Yz-Rjx" kind="show" identifier="toTutorial" id="T6b-qU-aTx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dl3-vO-fZf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1207,74 +1208,92 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="L7R-7W-Ic1">
-                                <rect key="frame" x="0.0" y="56" width="0.0" height="619"/>
+                                <rect key="frame" x="0.0" y="56" width="375" height="619"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBj-w0-IqR" userLabel="View1">
-                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="111.33333333333333"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="111.33333333333333"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を変更する" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87E-9K-5RR">
-                                        <rect key="frame" x="0.0" y="111.33333333333334" width="0.0" height="31"/>
+                                        <rect key="frame" x="0.0" y="111.33333333333334" width="375" height="31"/>
                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dc-Ah-gXf" userLabel="View2">
-                                        <rect key="frame" x="0.0" y="142.33333333333334" width="0.0" height="62"/>
+                                        <rect key="frame" x="0.0" y="142.33333333333334" width="375" height="62"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rx4-0y-tZf">
-                                        <rect key="frame" x="0.0" y="204.33333333333331" width="0.0" height="31"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rx4-0y-tZf" userLabel="Stack View2">
+                                        <rect key="frame" x="0.0" y="204.33333333333331" width="375" height="31"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyF-7A-izU" userLabel="View5">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="31"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="112.66666666666667" height="31"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                             </view>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fwG-xf-iQd">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="31"/>
+                                                <rect key="frame" x="112.66666666666669" y="0.0" width="150" height="31"/>
                                                 <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U05-FS-NAB" userLabel="View6">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="31"/>
+                                                <rect key="frame" x="262.66666666666669" y="0.0" width="112.33333333333331" height="31"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                             </view>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="iyF-7A-izU" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" id="9OQ-nx-ysf"/>
-                                            <constraint firstItem="U05-FS-NAB" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" id="9ak-Cb-5Tj"/>
-                                            <constraint firstItem="fwG-xf-iQd" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" id="zzz-DF-faG"/>
+                                            <constraint firstItem="iyF-7A-izU" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" multiplier="0.3" id="9OQ-nx-ysf"/>
+                                            <constraint firstItem="U05-FS-NAB" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" multiplier="0.3" id="9ak-Cb-5Tj"/>
+                                            <constraint firstItem="fwG-xf-iQd" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" multiplier="0.4" id="zzz-DF-faG"/>
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aen-J8-mLT" userLabel="View3">
-                                        <rect key="frame" x="0.0" y="235.33333333333329" width="0.0" height="61.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="235.33333333333329" width="375" height="61.666666666666657"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Od-H5-Ah2">
-                                        <rect key="frame" x="0.0" y="297" width="0.0" height="31"/>
-                                        <color key="backgroundColor" red="0.86666666670000003" green="0.15686274510000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
-                                        <state key="normal" title="決定">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        </state>
-                                        <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                                <integer key="value" value="8"/>
-                                            </userDefinedRuntimeAttribute>
-                                        </userDefinedRuntimeAttributes>
-                                        <connections>
-                                            <action selector="startButton:" destination="B2I-1t-hRH" eventType="touchUpInside" id="3qR-4Y-qsf"/>
-                                            <action selector="startButton:" destination="aDX-FZ-tVN" eventType="touchUpInside" id="Pzx-Ev-WPW"/>
-                                        </connections>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7GL-QS-vat" userLabel="Stack View3">
+                                        <rect key="frame" x="0.0" y="297" width="375" height="31"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="neI-qE-T4A" userLabel="View7">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="31"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Od-H5-Ah2">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="31"/>
+                                                <color key="backgroundColor" red="0.86666666670000003" green="0.15686274510000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                                <state key="normal" title="決定">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="8"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="startButton:" destination="B2I-1t-hRH" eventType="touchUpInside" id="3qR-4Y-qsf"/>
+                                                    <action selector="startButton:" destination="aDX-FZ-tVN" eventType="touchUpInside" id="Pzx-Ev-WPW"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yff-US-pFV" userLabel="View8">
+                                                <rect key="frame" x="225" y="0.0" width="150" height="31"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="7Od-H5-Ah2" firstAttribute="width" secondItem="7GL-QS-vat" secondAttribute="width" multiplier="0.2" id="4iA-Uv-KaY"/>
+                                            <constraint firstItem="yff-US-pFV" firstAttribute="width" secondItem="7GL-QS-vat" secondAttribute="width" multiplier="0.4" id="Ba1-bD-9gZ"/>
+                                            <constraint firstItem="neI-qE-T4A" firstAttribute="width" secondItem="7GL-QS-vat" secondAttribute="width" multiplier="0.4" id="gES-xq-ikm"/>
+                                        </constraints>
+                                    </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EbQ-sC-KtK" userLabel="View4">
-                                        <rect key="frame" x="0.0" y="328" width="0.0" height="291"/>
+                                        <rect key="frame" x="0.0" y="328" width="375" height="291"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="EbQ-sC-KtK" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.47" id="OGj-SK-qxJ"/>
-                                    <constraint firstItem="7Od-H5-Ah2" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.05" id="Uey-g7-t9o"/>
+                                    <constraint firstItem="7GL-QS-vat" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.05" id="Ot5-1a-QTb"/>
                                     <constraint firstItem="aen-J8-mLT" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.1" id="VDH-fx-IEj"/>
                                     <constraint firstItem="87E-9K-5RR" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.05" id="fMr-FR-1pu"/>
                                     <constraint firstItem="aBj-w0-IqR" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.18" id="fva-9h-Z3K"/>
@@ -1299,7 +1318,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Hc-1T-YL9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2113" y="-1173"/>
+            <point key="canvasLocation" x="2156" y="-1173"/>
+        </scene>
+        <!--Tutorial View Controller-->
+        <scene sceneID="yfh-Xd-cWy">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="PUJ-Yz-Rjx" customClass="TutorialViewController" customModule="TELL_ME" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="UE0-0f-tiQ"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6yo-1g-UFF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3632" y="-1868"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="hYM-0a-cFf">
@@ -1560,7 +1589,51 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jH8-Qc-9dO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5777" y="-488"/>
+            <point key="canvasLocation" x="5823" y="-488"/>
+        </scene>
+        <!--Eighth View Controller-->
+        <scene sceneID="1Sv-Al-vKA">
+            <objects>
+                <viewController storyboardIdentifier="EighthViewController" id="djm-eS-ZlI" customClass="EighthViewController" customModule="self" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GfK-c9-uSM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Ai8-7I-LCR">
+                                <rect key="frame" x="20" y="64" width="335" height="694"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGY-zw-6Ga">
+                                <rect key="frame" x="134.66666666666666" y="610" width="106" height="38"/>
+                                <color key="backgroundColor" red="0.86666666670000003" green="0.15686274510000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="26"/>
+                                <state key="normal" title=" START ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="F5a-NG-Vhc" kind="show" id="9Jg-CB-1w4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ai8-7I-LCR" firstAttribute="top" secondItem="zRC-nY-fEg" secondAttribute="top" constant="20" id="4sX-qk-35U"/>
+                            <constraint firstAttribute="trailing" secondItem="Ai8-7I-LCR" secondAttribute="trailing" constant="20" id="C5A-k8-RBY"/>
+                            <constraint firstItem="zRC-nY-fEg" firstAttribute="bottom" secondItem="nGY-zw-6Ga" secondAttribute="bottom" constant="130" id="FRA-Sq-wLV"/>
+                            <constraint firstItem="nGY-zw-6Ga" firstAttribute="centerX" secondItem="GfK-c9-uSM" secondAttribute="centerX" id="UaW-M3-Oje"/>
+                            <constraint firstItem="Ai8-7I-LCR" firstAttribute="leading" secondItem="zRC-nY-fEg" secondAttribute="leading" constant="20" id="Wpz-Z6-K9t"/>
+                            <constraint firstItem="zRC-nY-fEg" firstAttribute="bottom" secondItem="Ai8-7I-LCR" secondAttribute="bottom" constant="20" id="hfm-Ml-VZq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zRC-nY-fEg"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Q8-am-Hsd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3654" y="-488"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="QTZ-Fy-GKk">
@@ -1718,7 +1791,6 @@
                                                 <connections>
                                                     <action selector="nextButton" destination="QOX-pf-906" eventType="touchUpInside" id="kMw-YU-6R0"/>
                                                     <action selector="saveButton" destination="ZZ5-ds-0gu" eventType="touchUpInside" id="At5-e1-7r8"/>
-                                                    <segue destination="Cgr-e2-ldI" kind="modal" identifier="toPageViewController" id="PpI-FC-ojp"/>
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ct-UL-QiR" userLabel="View8">
@@ -1727,9 +1799,17 @@
                                             </view>
                                         </subviews>
                                         <constraints>
+                                            <constraint firstItem="KOX-XE-FcG" firstAttribute="top" secondItem="OjA-nw-yR5" secondAttribute="top" id="2eJ-Rq-kmL"/>
+                                            <constraint firstAttribute="bottom" secondItem="Bzx-5c-wUe" secondAttribute="bottom" id="4oi-TH-nHN"/>
                                             <constraint firstItem="2ct-UL-QiR" firstAttribute="width" secondItem="OjA-nw-yR5" secondAttribute="width" multiplier="0.35" id="Ek4-eZ-i19"/>
                                             <constraint firstItem="Bzx-5c-wUe" firstAttribute="width" secondItem="OjA-nw-yR5" secondAttribute="width" multiplier="0.35" id="VLd-pt-HAo"/>
                                             <constraint firstItem="KOX-XE-FcG" firstAttribute="width" secondItem="OjA-nw-yR5" secondAttribute="width" multiplier="0.3" id="WeD-6W-e17"/>
+                                            <constraint firstItem="Bzx-5c-wUe" firstAttribute="top" secondItem="OjA-nw-yR5" secondAttribute="top" id="dTb-Uz-p0p"/>
+                                            <constraint firstAttribute="bottom" secondItem="2ct-UL-QiR" secondAttribute="bottom" id="kip-XT-lCp"/>
+                                            <constraint firstItem="2ct-UL-QiR" firstAttribute="top" secondItem="OjA-nw-yR5" secondAttribute="top" id="mG0-RO-2jy"/>
+                                            <constraint firstAttribute="bottom" secondItem="KOX-XE-FcG" secondAttribute="bottom" id="ofV-VN-EOv"/>
+                                            <constraint firstItem="Bzx-5c-wUe" firstAttribute="leading" secondItem="OjA-nw-yR5" secondAttribute="leading" id="psp-kF-7LI"/>
+                                            <constraint firstAttribute="trailing" secondItem="2ct-UL-QiR" secondAttribute="trailing" id="rY0-tD-RSs"/>
                                         </constraints>
                                     </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mH0-Nq-aXD" userLabel="View9">
@@ -1779,6 +1859,7 @@
                     <navigationItem key="navigationItem" id="dxe-l7-qq5"/>
                     <connections>
                         <outlet property="nameTextField" destination="W3t-SA-KB4" id="Ph2-u0-KHW"/>
+                        <segue destination="Cgr-e2-ldI" kind="show" identifier="toPageViewController" id="Cp6-l5-ArU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qVN-HR-tch" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1891,9 +1972,13 @@
         <image name="5.jpg" width="1125" height="2436"/>
         <image name="6.jpg" width="1125" height="2436"/>
         <image name="7.jpg" width="1125" height="2436"/>
+        <image name="8.jpg" width="1125" height="2436"/>
         <image name="camera.viewfinder" catalog="system" width="64" height="56"/>
         <image name="gear" catalog="system" width="64" height="58"/>
         <image name="person.crop.rectangle" catalog="system" width="64" height="46"/>
         <image name="qrcode" catalog="system" width="64" height="56"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="9Jg-CB-1w4"/>
+    </inferredMetricsTieBreakers>
 </document>

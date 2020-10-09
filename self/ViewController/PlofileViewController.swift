@@ -116,11 +116,6 @@ class PlofileViewController: UIViewController {
     }
     
 }
-extension PlofileViewController :UITextFieldDelegate {
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        self.view.endEditing(true)
-    }
-}
 
 extension PlofileViewController : UIImagePickerControllerDelegate ,UINavigationControllerDelegate {
 
@@ -135,5 +130,9 @@ extension PlofileViewController : UIImagePickerControllerDelegate ,UINavigationC
     }
 }
 
-
+extension PlofileViewController :UITextFieldDelegate {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+}
 

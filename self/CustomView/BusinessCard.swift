@@ -23,9 +23,9 @@ class BusinessCard: UIView {
     @IBOutlet var treeView: TreeView!
     @IBOutlet var nameLabel: UILabel!
     var DBRef:DatabaseReference!
-
+    
     @IBOutlet var textField:UITextField!
-
+    
     
     //    override init(frame: CGRect) {
     //        super.init(frame: frame)
@@ -94,11 +94,26 @@ class BusinessCard: UIView {
     
     @IBAction func addButton() {
         textField.endEditing(true)
+        
+        let data = ["key": textField.text,"itsu": "","dokode": "","dareto": "","nanishita": "","sonota": ""] as [String : Any]
+        
+        DBRef.child("userData").child(Util.getUUID()).child("selfCharacter").childByAutoId().setValue(data)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
+    
+//    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+//        // キーボードを閉じる
+//        UITextField.resignFirstResponder
+//        return true
+//    }
+}
 
-           let data = ["key": textField.text,"itsu": "","dokode": "","dareto": "","nanishita": "","sonota": ""] as [String : Any]
-           
-           DBRef.child("userData").child(Util.getUUID()).child("selfCharacter").childByAutoId().setValue(data)
-       }
-    
-    
+extension BusinessCard :UITextFieldDelegate {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.textField.endEditing(true)
+    }
 }

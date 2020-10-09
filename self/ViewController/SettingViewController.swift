@@ -29,7 +29,7 @@ extension SettingViewController: UITableViewDelegate {
         case 0:
            performSegue(withIdentifier: "toPlofileViewController", sender: nil)
         case 1:
-            performSegue(withIdentifier: "toPageViewController", sender: nil)
+            performSegue(withIdentifier: "toTutorial", sender: nil)
         case 2:
             performSegue(withIdentifier: "toOtherViewController", sender: nil)
         default:

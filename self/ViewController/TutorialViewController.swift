@@ -1,5 +1,5 @@
 //
-//  PageViewController.swift
+//  TutorialViewController.swift
 //  self
 //
 //  Created by 原田摩利奈 on 2020/10/09.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageViewController: UIPageViewController {
+class TutorialViewController: UIPageViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class PageViewController: UIPageViewController {
     }
 }
 
-extension PageViewController : UIPageViewControllerDataSource {
+extension TutorialViewController : UIPageViewControllerDataSource {
     
     //ここに画面の数だけViewControllerを取得するメソッドを用意する
     func getFirst() -> FirstViewController {
@@ -48,9 +48,6 @@ extension PageViewController : UIPageViewControllerDataSource {
         return storyboard!.instantiateViewController(withIdentifier: "SeventhViewController") as! SeventhViewController
     }
     
-    func getEighth() -> EighthViewController {
-        return storyboard!.instantiateViewController(withIdentifier: "EighthViewController") as! EighthViewController
-    }
     
     //戻る方向にスワイプされた場合の条件わけ
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
@@ -67,8 +64,6 @@ extension PageViewController : UIPageViewControllerDataSource {
             return getFifth()
         }else if viewController.isKind(of:SeventhViewController.self){
             return getSixth()
-        }else if viewController.isKind(of:EighthViewController.self){
-            return getSeventh()
         }else{
             return nil
         }
@@ -89,11 +84,10 @@ extension PageViewController : UIPageViewControllerDataSource {
             return getSixth()
         }else if viewController.isKind(of: SixthViewController.self){
             return getSeventh()
-        }else if viewController.isKind(of: SeventhViewController.self){
-            return getEighth()
         }else{
             return nil
         }
     }
 }
+
 

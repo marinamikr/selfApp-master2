@@ -79,7 +79,7 @@ class TopViewController: UIViewController {
         let data = ["name": name]
         ref.child("userData").child(Util.getUUID()).setValue(data)
         userDefaults.set(true, forKey: "isFirst")
-        dismiss(animated: true, completion: nil)
+//        dismiss(animated: true, completion: nil)
         
     }
     

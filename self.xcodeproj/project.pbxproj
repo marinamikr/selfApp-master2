@@ -46,6 +46,10 @@
 		4093D802252F7921001BCDDB /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D801252F7921001BCDDB /* FifthViewController.swift */; };
 		4093D804252F792D001BCDDB /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D803252F792D001BCDDB /* SixthViewController.swift */; };
 		4093D806252F7938001BCDDB /* SeventhViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D805252F7938001BCDDB /* SeventhViewController.swift */; };
+		4093D8082530655A001BCDDB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4093D8072530655A001BCDDB /* icon.png */; };
+		4093D80A2530876C001BCDDB /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4093D8092530876C001BCDDB /* 8.jpg */; };
+		4093D80C2530889F001BCDDB /* EighthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D80B2530889F001BCDDB /* EighthViewController.swift */; };
+		4093D85225308FCC001BCDDB /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4093D85125308FCC001BCDDB /* TutorialViewController.swift */; };
 		40B6070124FB72B500BEB87B /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B606FF24FB72B500BEB87B /* CustomTableViewCell.swift */; };
 		40B6070224FB72B500BEB87B /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40B6070024FB72B500BEB87B /* CustomTableViewCell.xib */; };
 		40B6070424FB8D9600BEB87B /* PlofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B6070324FB8D9600BEB87B /* PlofileViewController.swift */; };
@@ -97,7 +101,7 @@
 		4052C624252F62F8002DEAA8 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		4052C628252F638A002DEAA8 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		40544EC723E048D3005DE7B9 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
-		405B381F23A8DA1800333CB8 /* self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = self.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		405B381F23A8DA1800333CB8 /* TELL ME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TELL ME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		405B382223A8DA1800333CB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		405B382423A8DA1800333CB8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		405B382623A8DA1800333CB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +134,10 @@
 		4093D801252F7921001BCDDB /* FifthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
 		4093D803252F792D001BCDDB /* SixthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
 		4093D805252F7938001BCDDB /* SeventhViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhViewController.swift; sourceTree = "<group>"; };
+		4093D8072530655A001BCDDB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4093D8092530876C001BCDDB /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		4093D80B2530889F001BCDDB /* EighthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EighthViewController.swift; sourceTree = "<group>"; };
+		4093D85125308FCC001BCDDB /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		40B606FF24FB72B500BEB87B /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		40B6070024FB72B500BEB87B /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		40B6070324FB8D9600BEB87B /* PlofileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlofileViewController.swift; sourceTree = "<group>"; };
@@ -226,6 +234,8 @@
 				4093D801252F7921001BCDDB /* FifthViewController.swift */,
 				4093D803252F792D001BCDDB /* SixthViewController.swift */,
 				4093D805252F7938001BCDDB /* SeventhViewController.swift */,
+				4093D80B2530889F001BCDDB /* EighthViewController.swift */,
+				4093D85125308FCC001BCDDB /* TutorialViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -251,6 +261,7 @@
 				4093D7F3252F7855001BCDDB /* 5.jpg */,
 				4093D7F2252F7855001BCDDB /* 6.jpg */,
 				4093D7F7252F7856001BCDDB /* 7.jpg */,
+				4093D8092530876C001BCDDB /* 8.jpg */,
 			);
 			path = Tutorial;
 			sourceTree = "<group>";
@@ -278,7 +289,7 @@
 		405B382023A8DA1800333CB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				405B381F23A8DA1800333CB8 /* self.app */,
+				405B381F23A8DA1800333CB8 /* TELL ME.app */,
 				405B383523A8DA1A00333CB8 /* selfTests.xctest */,
 				405B384023A8DA1A00333CB8 /* selfUITests.xctest */,
 			);
@@ -300,6 +311,7 @@
 				405B382D23A8DA1A00333CB8 /* LaunchScreen.storyboard */,
 				405B383023A8DA1A00333CB8 /* Info.plist */,
 				405B385223A8E59100333CB8 /* RealmModel.swift */,
+				4093D8072530655A001BCDDB /* icon.png */,
 				4052C62A252F64A0002DEAA8 /* Image */,
 				4002C9E523E0357E0093666B /* GoogleService-Info.plist */,
 			);
@@ -375,7 +387,7 @@
 			);
 			name = self;
 			productName = self;
-			productReference = 405B381F23A8DA1800333CB8 /* self.app */;
+			productReference = 405B381F23A8DA1800333CB8 /* TELL ME.app */;
 			productType = "com.apple.product-type.application";
 		};
 		405B383423A8DA1A00333CB8 /* selfTests */ = {
@@ -465,6 +477,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4093D80A2530876C001BCDDB /* 8.jpg in Resources */,
 				4093D7F8252F7856001BCDDB /* 4.jpg in Resources */,
 				405B382F23A8DA1A00333CB8 /* LaunchScreen.storyboard in Resources */,
 				4093D7F9252F7856001BCDDB /* 6.jpg in Resources */,
@@ -472,6 +485,7 @@
 				405B382C23A8DA1A00333CB8 /* Assets.xcassets in Resources */,
 				4093D7FD252F7856001BCDDB /* 2.jpg in Resources */,
 				40F8860824052CE200969895 /* TreeView.xib in Resources */,
+				4093D8082530655A001BCDDB /* icon.png in Resources */,
 				40EB063E240E6C09009521E4 /* Story.xib in Resources */,
 				4093D7FC252F7856001BCDDB /* 3.jpg in Resources */,
 				4002C9E623E0357E0093666B /* GoogleService-Info.plist in Resources */,
@@ -633,12 +647,14 @@
 				40544EC823E048D3005DE7B9 /* Character.swift in Sources */,
 				40F886042405292E00969895 /* CustomUITabBarController.swift in Sources */,
 				4093D802252F7921001BCDDB /* FifthViewController.swift in Sources */,
+				4093D80C2530889F001BCDDB /* EighthViewController.swift in Sources */,
 				4052C625252F62F8002DEAA8 /* ThirdViewController.swift in Sources */,
 				405B382523A8DA1800333CB8 /* SceneDelegate.swift in Sources */,
 				408C454324865DE900A0CF09 /* CharacterSet.swift in Sources */,
 				4093D800252F7916001BCDDB /* ForthViewController.swift in Sources */,
 				4052C621252F62DF002DEAA8 /* FirstViewController.swift in Sources */,
 				4028DA1823F2BEE100F33004 /* TreeView.swift in Sources */,
+				4093D85225308FCC001BCDDB /* TutorialViewController.swift in Sources */,
 				40887C5C23C49E9C00BF05F7 /* RouletteViewController.swift in Sources */,
 				40EB0640240E6C11009521E4 /* Story.swift in Sources */,
 				40880374248FA878007504D4 /* LookCharacterViewController.swift in Sources */,
@@ -824,7 +840,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = marina.self;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "TELL ME";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -844,7 +860,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = marina.self;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "TELL ME";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

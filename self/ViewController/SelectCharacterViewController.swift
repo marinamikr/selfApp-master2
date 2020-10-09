@@ -57,22 +57,37 @@ class SelectCharacterViewController: UIViewController {
         try! realm.write() {
             realm.add(saveData4)
         }
-
-
-         self.performSegue(withIdentifier: "toRoulettoView", sender: nil)
+        
+        
+        self.performSegue(withIdentifier: "toRoulettoView", sender: nil)
         
     }
-       override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-    
-           if segue.identifier == "toRoulettoView" {
-    
-               let nextView = segue.destination as! RouletteViewController
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "toRoulettoView" {
+            
+            let nextView = segue.destination as! RouletteViewController
+            
             nextView.text1 = textField1.text!
             nextView.text2 = textField2.text!
             nextView.text3 = textField3.text!
             nextView.text4 = textField4.text!
             nextView.id = id
-           }
-       }
+        }
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // キーボードを閉じる
+        textField1.resignFirstResponder()
+        textField2.resignFirstResponder()
+        textField3.resignFirstResponder()
+        textField4.resignFirstResponder()
+        return true
+    }
+}
+
+extension SelectCharacterViewController :UITextFieldDelegate {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
 }

@@ -28,6 +28,7 @@ class TreeView: UIView {
         labelArray = []
         super.init(coder: aDecoder)!
         loadNib()
+        self.nanishitaTextView.isEditable = false
     }
     
     func loadNib() {
