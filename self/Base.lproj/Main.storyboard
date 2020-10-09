@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Cgr-e2-ldI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6nb-ld-I55">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -1207,36 +1207,51 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="L7R-7W-Ic1">
-                                <rect key="frame" x="0.0" y="56" width="375" height="619"/>
+                                <rect key="frame" x="0.0" y="56" width="0.0" height="619"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aBj-w0-IqR" userLabel="View1">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="111.33333333333333"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="111.33333333333333"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を変更する" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="87E-9K-5RR">
-                                        <rect key="frame" x="0.0" y="111.33333333333334" width="375" height="31"/>
+                                        <rect key="frame" x="0.0" y="111.33333333333334" width="0.0" height="31"/>
                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dc-Ah-gXf" userLabel="View2">
-                                        <rect key="frame" x="0.0" y="142.33333333333334" width="375" height="62"/>
+                                        <rect key="frame" x="0.0" y="142.33333333333334" width="0.0" height="62"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rx4-0y-tZf">
-                                        <rect key="frame" x="0.0" y="204.33333333333331" width="375" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="204.33333333333331" width="0.0" height="31"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyF-7A-izU" userLabel="View5">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="31"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fwG-xf-iQd">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="31"/>
+                                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="U05-FS-NAB" userLabel="View6">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="31"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="iyF-7A-izU" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" id="9OQ-nx-ysf"/>
+                                            <constraint firstItem="U05-FS-NAB" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" id="9ak-Cb-5Tj"/>
+                                            <constraint firstItem="fwG-xf-iQd" firstAttribute="width" secondItem="Rx4-0y-tZf" secondAttribute="width" id="zzz-DF-faG"/>
+                                        </constraints>
                                     </stackView>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fwG-xf-iQd">
-                                        <rect key="frame" x="0.0" y="204.33333333333331" width="375" height="31"/>
-                                        <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aen-J8-mLT" userLabel="View3">
-                                        <rect key="frame" x="0.0" y="235.33333333333329" width="375" height="61.666666666666657"/>
+                                        <rect key="frame" x="0.0" y="235.33333333333329" width="0.0" height="61.666666666666657"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Od-H5-Ah2">
-                                        <rect key="frame" x="0.0" y="297" width="375" height="31"/>
+                                        <rect key="frame" x="0.0" y="297" width="0.0" height="31"/>
                                         <color key="backgroundColor" red="0.86666666670000003" green="0.15686274510000001" blue="0.37647058820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
                                         <state key="normal" title="決定">
@@ -1253,17 +1268,17 @@
                                         </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EbQ-sC-KtK" userLabel="View4">
-                                        <rect key="frame" x="0.0" y="328" width="375" height="291"/>
+                                        <rect key="frame" x="0.0" y="328" width="0.0" height="291"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="fwG-xf-iQd" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.05" id="Lr7-9i-BRf"/>
                                     <constraint firstItem="EbQ-sC-KtK" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.47" id="OGj-SK-qxJ"/>
                                     <constraint firstItem="7Od-H5-Ah2" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.05" id="Uey-g7-t9o"/>
                                     <constraint firstItem="aen-J8-mLT" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.1" id="VDH-fx-IEj"/>
                                     <constraint firstItem="87E-9K-5RR" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.05" id="fMr-FR-1pu"/>
                                     <constraint firstItem="aBj-w0-IqR" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.18" id="fva-9h-Z3K"/>
+                                    <constraint firstItem="Rx4-0y-tZf" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.05" id="t1a-P6-1nu"/>
                                     <constraint firstItem="2dc-Ah-gXf" firstAttribute="height" secondItem="L7R-7W-Ic1" secondAttribute="height" multiplier="0.1" id="vyA-38-RNF"/>
                                 </constraints>
                             </stackView>
@@ -1420,7 +1435,7 @@
         <!--First View Controller-->
         <scene sceneID="Uxi-J4-ZL8">
             <objects>
-                <viewController id="IAy-Uu-mTU" customClass="FirstViewController" customModule="self" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstViewController" id="IAy-Uu-mTU" customClass="FirstViewController" customModule="self" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pG5-N7-dnb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1446,7 +1461,7 @@
         <!--Second View Controller-->
         <scene sceneID="aw6-6T-YgO">
             <objects>
-                <viewController id="q4k-xs-xcF" customClass="SecondViewController" customModule="self" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" id="q4k-xs-xcF" customClass="SecondViewController" customModule="self" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S0o-8W-oJN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1703,6 +1718,7 @@
                                                 <connections>
                                                     <action selector="nextButton" destination="QOX-pf-906" eventType="touchUpInside" id="kMw-YU-6R0"/>
                                                     <action selector="saveButton" destination="ZZ5-ds-0gu" eventType="touchUpInside" id="At5-e1-7r8"/>
+                                                    <segue destination="Cgr-e2-ldI" kind="modal" identifier="toPageViewController" id="PpI-FC-ojp"/>
                                                 </connections>
                                             </button>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2ct-UL-QiR" userLabel="View8">

@@ -86,7 +86,7 @@ class TopViewController: UIViewController {
     @IBAction func nextButton() {
         if nameTextField.text != "" {
             upload(name: nameTextField.text!)
-            performSegue(withIdentifier: "toTutorial", sender: nil)
+            performSegue(withIdentifier: "toPageViewController", sender: nil)
         }else{
             makeAleart(title: "名前を入力してください", message: "全て入力してください", okText: "OK")
         }
