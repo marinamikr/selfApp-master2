@@ -11,7 +11,7 @@ import UIKit
 class SettingViewController: UIViewController {
     
     @IBOutlet weak var settingTableVIew: UITableView!
-    var nameArray = ["プロフィール","チュートリアル","その他"]
+    var nameArray = ["プロフィール変更","チュートリアル"]
     
     
     override func viewDidLoad() {
